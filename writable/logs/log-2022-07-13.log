@@ -1,0 +1,405 @@
+ERROR - 2022-07-13 06:59:25 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-07-13 06:59:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\concejo\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\concejo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\concejo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\concejo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\concejo\app\Controllers\LoginController.php(72): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\LoginController->attemptLogin()
+#6 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-07-13 07:02:07 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-07-13 07:02:07 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\concejo\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\concejo\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\concejo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\concejo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\concejo\app\Controllers\LoginController.php(72): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\LoginController->attemptLogin()
+#6 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#7 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-13 09:21:44 --> Undefined array key "name"
+#0 C:\xampp\htdocs\concejo\app\Controllers\LoginController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 90)
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\LoginController->attemptLogin()
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-13 09:22:13 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-13 09:23:11 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-13 09:23:29 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-13 09:24:28 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-13 09:25:52 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-13 09:25:54 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-13 09:26:01 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-13 09:28:25 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-13 09:28:27 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-13 09:28:58 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-13 09:29:04 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-13 09:29:49 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-13 09:29:51 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-13 09:30:44 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-13 09:30:46 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-13 09:32:09 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-13 09:34:36 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-13 09:34:38 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-07-13 09:36:59 --> Table 'capacitaciones2.tipo_capacitacion' doesn't exist
+CRITICAL - 2022-07-13 09:36:59 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\concejo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(67): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#3 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#4 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-07-13 09:39:17 --> Table 'capacitaciones2.tipo_capacitacion' doesn't exist
+CRITICAL - 2022-07-13 09:39:17 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\concejo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(67): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#3 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#4 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-07-13 09:39:20 --> Table 'capacitaciones2.tipo_capacitacion' doesn't exist
+CRITICAL - 2022-07-13 09:39:20 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\concejo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(67): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#3 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#4 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-07-13 09:39:41 --> Table 'capacitaciones2.tipo_capacitacion' doesn't exist
+CRITICAL - 2022-07-13 09:39:41 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\concejo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(67): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#3 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#4 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-07-13 09:41:34 --> Table 'capacitaciones2.tipo_capacitacion' doesn't exist
+CRITICAL - 2022-07-13 09:41:34 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\concejo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(67): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#3 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#4 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-07-13 09:41:35 --> Table 'capacitaciones2.tipo_capacitacion' doesn't exist
+CRITICAL - 2022-07-13 09:41:35 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\concejo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(67): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#3 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#4 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-07-13 09:42:27 --> Table 'capacitaciones2.tipo_capacitacion' doesn't exist
+CRITICAL - 2022-07-13 09:42:27 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\concejo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(68): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#3 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#4 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-07-13 09:43:16 --> Table 'capacitaciones2.tipo_capacitacion' doesn't exist
+CRITICAL - 2022-07-13 09:43:16 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\concejo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(67): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#3 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#4 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-07-13 09:44:02 --> Table 'capacitaciones2.tipo_capacitacion' doesn't exist
+CRITICAL - 2022-07-13 09:44:02 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\concejo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(67): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#3 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#4 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-07-13 09:44:03 --> Table 'capacitaciones2.tipo_capacitacion' doesn't exist
+CRITICAL - 2022-07-13 09:44:03 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\concejo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(67): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#3 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#4 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-07-13 09:44:03 --> Table 'capacitaciones2.tipo_capacitacion' doesn't exist
+CRITICAL - 2022-07-13 09:44:03 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\concejo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(67): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#3 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#4 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-07-13 09:44:04 --> Table 'capacitaciones2.tipo_capacitacion' doesn't exist
+CRITICAL - 2022-07-13 09:44:04 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\concejo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(67): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#3 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#4 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-07-13 09:44:16 --> Table 'capacitaciones2.tipo_capacitacion' doesn't exist
+CRITICAL - 2022-07-13 09:44:16 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\concejo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(67): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#3 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#4 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-07-13 09:44:17 --> Table 'capacitaciones2.tipo_capacitacion' doesn't exist
+CRITICAL - 2022-07-13 09:44:17 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\concejo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(67): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#3 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#4 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-07-13 09:47:16 --> Call to undefined method App\Models\CapacitacionModel::count_all
+#0 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(67): CodeIgniter\Model->__call('count_all', Array)
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#3 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-13 09:47:17 --> Call to undefined method App\Models\CapacitacionModel::count_all
+#0 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(67): CodeIgniter\Model->__call('count_all', Array)
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#3 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-07-13 09:47:17 --> Call to undefined method App\Models\CapacitacionModel::count_all
+#0 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(67): CodeIgniter\Model->__call('count_all', Array)
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#3 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-07-13 09:47:41 --> Table 'capacitaciones2.tipo_capacitacion' doesn't exist
+CRITICAL - 2022-07-13 09:47:41 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\concejo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(68): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#3 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#4 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-07-13 09:50:42 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-13 09:50:44 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-13 09:54:19 --> Class "App\Controllers\ComisionModel" not found
+#0 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#1 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#2 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-07-13 09:55:03 --> Undefined variable $comisiones
+#0 C:\xampp\htdocs\concejo\app\Views\capacitacion\all_capacitaciones.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\concejo\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\concejo\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\concejo\system\Common.php(1097): CodeIgniter\View\View->render('capacitacion/al...', Array, true)
+#4 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(70): view('capacitacion/al...', Array)
+#5 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#6 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#7 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-13 09:55:37 --> Undefined variable $comisiones
+#0 C:\xampp\htdocs\concejo\app\Views\capacitacion\all_capacitaciones.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\concejo\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\concejo\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\concejo\system\Common.php(1097): CodeIgniter\View\View->render('capacitacion/al...', Array, true)
+#4 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(70): view('capacitacion/al...', Array)
+#5 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#6 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#7 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-13 09:56:37 --> Undefined array key "descripcion"
+#0 C:\xampp\htdocs\concejo\app\Views\comision\all_comisiones.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\concejo\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\concejo\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\concejo\system\Common.php(1097): CodeIgniter\View\View->render('comision/all_co...', Array, true)
+#4 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(70): view('comision/all_co...', Array)
+#5 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#6 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#7 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-07-13 09:57:10 --> Undefined array key "descripcion"
+#0 C:\xampp\htdocs\concejo\app\Views\comision\all_comisiones.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\concejo\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\concejo\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\concejo\system\Common.php(1097): CodeIgniter\View\View->render('comision/all_co...', Array, true)
+#4 C:\xampp\htdocs\concejo\app\Controllers\CapacitacionController.php(70): view('comision/all_co...', Array)
+#5 C:\xampp\htdocs\concejo\system\CodeIgniter.php(824): App\Controllers\CapacitacionController->getAll()
+#6 C:\xampp\htdocs\concejo\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CapacitacionController))
+#7 C:\xampp\htdocs\concejo\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\concejo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\concejo\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
